@@ -12,7 +12,7 @@ constexpr auto DEFAULT_DEPTH_FRAME_ID = "camera_depth_frame";
 constexpr auto DEFAULT_COLOR_FRAME_ID = "camera_color_frame";
 
 const int RETRY_INTERVAL = 3;
-const unsigned int STATE_CHANGE_ASYNC_TIMEOUT = 15;
+const unsigned int STATE_CHANGE_ASYNC_TIMEOUT = 50;
 const unsigned int APP_SINK_BUFFER_COUNT = 5;
 
 // ROS Parameter names
